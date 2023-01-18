@@ -1,0 +1,11 @@
+environment = "dev"
+cidrr        = "10.0.0.0/16"
+region      = "us-east-1"
+pbsubnet    = [ "10.0.0.0/24" , "10.0.2.0/24" ]
+ptsubnet    = [ "10.0.1.0/24" , "10.0.3.0/24"  ]
+zone        = [ "us-east-1a" , "us-east-1b" ]
+pbroute     = "0.0.0.0/0"
+ptroute     = "0.0.0.0/0"
+cider-block = "0.0.0.0/0"
+ami         = "ami-06878d265978313ca"
+instance_type = "t2.micro"
